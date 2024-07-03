@@ -1,0 +1,47 @@
+{
+    "path_exp": "results/BERTopic",
+    "path_embeddings": "embeddings_15/all-mpnet-base-v2",
+    "path_data_dir": "data/all",
+    "seed": 1233,
+    "BERTopic": {
+        "umap": {
+            "metric": "cosine",
+            "n_neighbors": 15,
+            "min_dist": 0.0,
+            "n_components": 5,
+            "random_state": 42
+        },
+        "hdbscan": {
+            "clustering_metric": "euclidean",
+            "min_samples": 50,
+            "min_cluster_size": 10
+        },
+        "representation": {
+            "keybert_model": {},
+            "pos_model": {
+                "model": "en_core_web_sm"
+            },
+            "mmr_model": {
+                "diversity": 0.8
+            }
+        },
+        "hyperparameters": {
+            "top_n_words": 10,
+            "verbose": true
+        },
+        "vectorizer": {
+            "use_vectorizer": true,
+            "args": {
+                "stop_words": "english",
+                "min_df": 2,
+                "ngram_range": [
+                    1,
+                    2
+                ]
+            }
+        }
+    },
+    "mode": "full",
+    "save_plots": true,
+    "save_pk": true
+}

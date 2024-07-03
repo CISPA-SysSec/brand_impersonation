@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+apify = "*"
+scikit-learn = "*"
+nltk = "*"
+pymongo = "*"
+tld = "*"
+web3 = "*"
+seaborn = "*"
+pyppeteer = "*"
+validators = "*"
+spacy = "*"
+beautifulsoup4 = "*"
+selenium = "*"
+webdriver-manager = "*"
+rstr = "*"
+cymruwhois = "*"
+ipwhois = "*"
+textdistance = "*"
+wordninja = "*"
+tweepy = "*"
+pytube = "*"
+youtube-search-python = "*"
+sentence-transformers = "*"
+hdbscan = "*"
+umap = "*"
+dill = "*"
+bertopic = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.6"
