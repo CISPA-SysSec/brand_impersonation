@@ -1,13 +1,20 @@
 ##  Brand Impersonation: Social Media Profiles Data Collection and Analysis Readme File
 ## Dependencies and Installation
 
-Please refer to Pipfile for dependencies required for code usage. 
+Please refer to Pipfile for dependencies required for code usage. The code deployed used python version 3.9.6.
 
 The data storage is expected to install MongoDB for any storage or processing.
 
 ## Collecting Raw Dataset
 
-After installation of MongoDB following are the commands for performing data collection from various social media platforms.
+`` Pre-requisite ``
+Prior to running the below code, there are two pre-requisites:
+
+* `Installation of MongoDB`: The data are stored using MongoDB database. We suggest installing MongoDB as per your system requirement as instructed by MongoDB installation guide [link](https://www.mongodb.com/docs/manual/administration/install-community/) 
+
+* `External API Setup`: The code uses three external services: APIFY [API](https://apify.com/), Klazify [API](https://www.klazify.com/), X Platform [API](https://developer.x.com/en/docs/twitter-api). These API are added as part of environment variable via `constants.py` at `class THIRD_PARTY_APIS` and at `class TWITTER_API_SUFFIX`.
+
+After installation of MongoDB and external API setup, following are the commands for performing data collection from various social media platforms.
 
 1. To create raw dataset based on keywords - Finding potential impersonation attacks
 

@@ -9,11 +9,11 @@ We have three main component as part of the artifacts summary. Below we provide 
 
 ### Data Collection, Squatting Analysis and Disclosure
 
-The first component gathers data from various social platforms based on the top 10K domains, identifying impersonated profiles using squatting techniques. These squatted social media profiles are then analyzed based on their creation and engagement methods. Finally, we disclose our findings to the affected entities. Detailed information about these data points can be found in the README section of the ```code/accounts_collection_and_analysis``` directory. For more details, please refer to this [link](https://github.com/CISPA-SysSec/brand_impersonation/code/accounts_collection_and_analysis/README.md).
+The first component gathers data from various social platforms based on the top 10K domains, identifying impersonated profiles using squatting techniques. These squatted social media profiles are then analyzed based on their creation and engagement methods. Finally, we disclose our findings to the affected entities. Detailed information about these data points can be found in the README section of the ```code/accounts_collection_and_analysis``` directory. For more details, please refer to this [link](https://github.com/CISPA-SysSec/brand_impersonation/blob/master/code/accounts_collection_and_analysis/README.md).
 
 ### Clustering and Image Analysis
 
-We cluster posts to identify different categories of attacks carried out by impersonating profiles. Additionally, we analyze the use of profile pictures to detect impersonation through image use. For more detailed technical information about post and image clustering, refer to the README section of the ```code/ml_posts_and_image_analysis``` directory. For further details, please refer to this [link](https://github.com/CISPA-SysSec/brand_impersonation/code/ml_posts_and_image_analysis/README.md).
+We cluster posts to identify different categories of attacks carried out by impersonating profiles. Additionally, we analyze the use of profile pictures to detect impersonation through image use. For more detailed technical information about post and image clustering, refer to the README section of the ```code/ml_posts_and_image_analysis``` directory. For further details, please refer to this [link](https://github.com/CISPA-SysSec/brand_impersonation/blob/master/code/ml_posts_and_image_analysis/code/README.md).
 
 ### Experiment
 
