@@ -10,7 +10,7 @@ The data storage is expected to install MongoDB for any storage or processing.
 `` Pre-requisite ``
 Prior to running the below code, there are two pre-requisites:
 
-* `Installation of MongoDB`: The data are stored using MongoDB database. We suggest installing MongoDB as per your system requirement as instructed by MongoDB installation guide [link](https://www.mongodb.com/docs/manual/administration/install-community/) 
+* `Installation of MongoDB`: The data are stored using MongoDB database. We suggest installing MongoDB as per your system requirement as instructed by MongoDB installation guide [link](https://www.mongodb.com/docs/manual/administration/install-community/) and adding the MongoDB credentials at ``db_util.py``at [link](https://github.com/CISPA-SysSec/brand_impersonation/blob/master/code/accounts_collection_and_analysis/db_util.py#L11).
 
 * `External API Setup`: The code uses three external services: APIFY [API](https://apify.com/), Klazify [API](https://www.klazify.com/), X Platform [API](https://developer.x.com/en/docs/twitter-api). These API are added as part of environment variable via `constants.py` at `class THIRD_PARTY_APIS` and at `class TWITTER_API_SUFFIX`.
 
